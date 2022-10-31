@@ -1,0 +1,71 @@
+/* ISGA11-0086-BCG */
+
+/* Länka in webfonten Montserrat här*/
+
+
+* {
+  box-sizing: border-box;
+ 
+}
+html {
+  font-size: 16px;
+}
+header>img {
+  width: 100px;
+}
+
+
+/* ****************************************************************************** */
+/*Deluppgift 2, Meny */
+nav{
+  width: 95%;
+  background-color: rgb(241,252,255);
+  display: inline;
+  display: block;
+  text-align: right;
+}
+nav>ul>li{
+  position: relative;
+  display: inline;
+  padding-right: 30px;
+  align-content: right;
+}
+li{
+  list-style: none;
+  font-size: 1.2rem;
+}
+li:hover{
+  background-color: lightgray;
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+.dropdown {
+  position: relative;
+  border: 3px black;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1000;
+  text-align: left;
+  left: 0%;
+  width:100%;
+  background-color: rgb(241,252,255);
+  padding: 0px;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* ****************************************************************************** */
+/* Deluppgift 3, Layout */
+
+
+/* ****************************************************************************** */
+/*Deluppgift 4, Responsivitet */ 
+
+
+
+
+/* ****************************************************************************** */

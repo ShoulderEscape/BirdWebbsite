@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--ISGA11-0086-BCG-->
+<html lang="sv">
+  <head>
+    <meta charset="utf-8">
+    <title>Tentamen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="styles/style.css">  
+  </head>
+  <body>
+    <header>
+      <!-- plats för logotyp-->    
+      <img src ="images/logotyp.svg" alt="logotyp">
+      <h1>Intresseföreningen fjäderfäna</h1>
+    </header>
+    <nav>
+
+      <ul>
+        <li><a href="#">Hem</a></li>
+        <li class="dropdown">Aktuella grupper
+          <ul class="dropdown-content">
+            <li><a href="#">Mesar</a></li>
+            <li><a href="#">Finkar</a></li>
+            <li><a href="#">Kråkor</a></li>
+            <li><a href="#">Gökar</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Om oss</a></li>
+        <li><a href="#">Ansök om medlemskap</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h2>Välkommen till föreningen fjäderfäna!</h2>
+      <p>Mitt intresse för fjäderfän väcktes en vårmorgon 1896 då jag steg upp på morgonen 
+        och fick en uppenbaraelse, jag skulle berika värden med mitt fågelintresse och tvinga
+        alla som inte gillar dem att gå med i föreningen ändå. För att kunna leva på mitt intresse 
+        har jag valt en annorlunda strategi, nämligen att tvångsansluta alla jag känner och tvinga 
+        dem att betala en hutlös årsavgift på inte mindre än 50 000 riksdaler.
+      </p>
+    </main>
+      <aside>
+      <h3>Klicka på en kategori nedan</h3>
+      <div>
+        <!-- plats för bild på en gök-->  
+        <img src ="images/gök.png" alt="gök" >    
+        <h4>Gökar</h4>
+      </div>
+      <div>
+        <!-- plats för bild på en fink-->
+        <img src ="images/fink.png" alt="gök" >    
+        <h4>Finkar</h4>
+      </div>
+      <div>
+        <!-- plats för bild på en med mes-->
+        <img src ="images/mes.png" alt="gök" >    
+        <h4>Mesar</h4>
+      </div>    
+      <h3>Joina Räkan</h3>
+      <p>Signa upp och gå med i vår systerförening <strong>Räkan</strong></p> 
+      <p>&copy; Föreningen intressanta finkar 2021</p>  
+      <p></p>
+      <form action="/ServerData.php">
+        <label>Ditt namn:</label>
+        <input type="text" required><br>
+        <!--Radioknappar taget ifrån http://www.tiger.se/dok/exempel/Formular.htm -->
+        <label>Betala 995kr/år</label>
+        <INPUT TYPE=RADIO NAME="val" VALUE="cost" CHECKED> 
+        <p></p>
+        <label>Betala 199kr/mån</label>
+        <INPUT TYPE=RADIO NAME="val" VALUE="cost" >
+        <p></p> 
+        <label>Orderkommentar</label>
+        <p></p>
+        <textarea rows="5" cols ="80"></textarea>
+        <p></p>
+        <INPUT TYPE=SUBMIT VALUE="Skicka ansökan">
+      </form>
+      
+  </aside>  
+  </body>
+</html>
